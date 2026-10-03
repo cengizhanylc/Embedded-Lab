@@ -1,0 +1,44 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "/Users/cengizhan/Desktop/Embedded-Lab/03_MCU/Module3_BareMetal_GPIO/include",
+                "/Users/cengizhan/Desktop/Embedded-Lab/03_MCU/Module3_BareMetal_GPIO/src",
+                "/Users/cengizhan/.platformio/packages/framework-cmsis/CMSIS/Include",
+                "/Users/cengizhan/.platformio/packages/framework-cmsis-stm32f4/Include",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "/Users/cengizhan/Desktop/Embedded-Lab/03_MCU/Module3_BareMetal_GPIO/include",
+                    "/Users/cengizhan/Desktop/Embedded-Lab/03_MCU/Module3_BareMetal_GPIO/src",
+                    "/Users/cengizhan/.platformio/packages/framework-cmsis/CMSIS/Include",
+                    "/Users/cengizhan/.platformio/packages/framework-cmsis-stm32f4/Include",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=60200",
+                "STM32F4",
+                "STM32F401xE",
+                "STM32F40_41xxx",
+                "F_CPU=84000000L",
+                ""
+            ],
+            "compilerPath": "/Users/cengizhan/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc",
+            "compilerArgs": [
+                "-mthumb",
+                "-mcpu=cortex-m4",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}

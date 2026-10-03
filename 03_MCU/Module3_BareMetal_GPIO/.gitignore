@@ -1,0 +1,7 @@
+# PlatformIO build artifacts
+.pio/
+.vscode/launch.json
+
+# System files
+.DS_Store
+Thumbs.db
